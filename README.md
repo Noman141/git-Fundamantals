@@ -21,10 +21,10 @@ Git is a version control system used to track changes in code.
 
 ## Basic Commands
 
-# How to Create a Repository?
+## How to Create a Repository?
 A repository (repo) is where your project lives. You can create it using a GUI or command line.
 
-# Method 1: Creating from GUI (Easiest)
+## Method 1: Creating from GUI (Easiest)
 ```Creating on GitHub:
 GitHub:
 Log in to GitHub (https://github.com)
@@ -38,7 +38,7 @@ Initialize with README (optional)
 Add .gitignore (optional)
 Choose a license (optional)
 Click "Create repository"```
-# GitLab:
+## GitLab:
 ```Log in to GitLab (https://gitlab.com)
 Click "New project"
 Choose "Create blank project"
@@ -47,45 +47,45 @@ Project name
 Project URL
 Visibility level (Private, Internal, Public)
 Initialize with README (optional)
-Click "Create project"```
+Click "Create project"
 
-# Creating from Command Line
+## Creating from Command Line
 Initialize a New Repository:
-# Create a new directory
+## Create a new directory
 mkdir my-project
 cd my-project
 
-# Initialize Git repository
+## Initialize Git repository
 git init
 
-# Verify initialization
+## Verify initialization
 ls -la  # You should see a .git directory
 Create Your First Commit:
-# Create a README file
+## Create a README file
 echo "# My Project" > README.md
 
-# Check status
+## Check status
 git status
 
-# Add file to staging area
+## Add file to staging area
 git add README.md
 
-# Commit the file
+## Commit the file
 git commit -m "Initial commit: Add README"
 
-# View commit history
+## View commit history
 git log
 Connect to Remote Repository:
-# Add remote origin (replace with your repository URL)
+## Add remote origin (replace with your repository URL)
 git remote add origin https://github.com/username/repository.git
 
-# Verify remote
+## Verify remote
 git remote -v
 
-# Push to remote
+## Push to remote
 git push -u origin main
 
-# Rewright README.md file & Push
+## Rewright README.md file & Push
 ভাল প্রশ্ন 👍 এখন আপনি Git-এর real workflow-এ ঢুকেছেন 🔥
 
 আপনি README.md edit করেছেন → এখন সেটা GitHub-এ push করতে হবে।
